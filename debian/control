@@ -1,0 +1,12 @@
+Source: org-desy-grid-virt-sort-release
+Maintainer: Owen Synge <owen.synge@jaysnest.de>
+Section: python
+Priority: optional
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-org-desy-grid-virt-sort-release
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Sorts tags and similar so we always get the newest version
+
